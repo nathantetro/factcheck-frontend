@@ -4,7 +4,7 @@ Website in which you can scroll through factchecks that have been scraped from n
 
 ## Usage
 
-This app requires Node.js & npm
+This app requires Node.js & npm. <br>
 Run these commands in the app's root directory to start the React app:
 
 ```sh
