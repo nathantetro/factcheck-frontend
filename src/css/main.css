@@ -1,0 +1,39 @@
+.banner{
+    color: white !important;
+    background-color: #3A506B;
+}
+
+.factCheck-title{
+    color: #3A506B;
+}
+
+
+.factCheck-card:hover{
+    background-color:  #E9ECF5 !important;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }
+
+  .url{
+      text-decoration: underline;
+      color: white;
+  }
+
+  .url:hover{
+    text-decoration: underline;
+    color: lightgray;
+  }
