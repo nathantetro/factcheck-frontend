@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactTooltip from "react-tooltip";
 import { Card } from "react-bootstrap"
 
 class FactCheckCard extends React.Component {

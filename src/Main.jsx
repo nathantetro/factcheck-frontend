@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Home from './components/Home/Home.jsx';
+import Home from './views/Home.jsx';
 import Converter from './components/Converter/Converter.jsx';
 
 const Main = () => {

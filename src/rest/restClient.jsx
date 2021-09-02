@@ -1,14 +1,8 @@
-
-
-
-const GOOGLE_API_URL = "https://factchecktools.googleapis.com/v1alpha1/claims:search"
-const GOOGLE_API_KEY = "AIzaSyC1nc8OEh0D5bFheIDJA3qz4lZwz8_4GlM"
-
 const KNACK_API_URL = "https://factcheck-scraper-api.herokuapp.com/api/knack"
 const ALL_API_URL = "https://factcheck-scraper-api.herokuapp.com/api/all"
 
 
-export const getGoogleFactChecks = async (query) => {
+/* export const getGoogleFactChecks = async (query) => {
     try {
         const response = await fetch(GOOGLE_API_URL + "?query=" + query + "&key=" + GOOGLE_API_KEY, {
             method: 'GET',
@@ -30,7 +24,7 @@ export const getGoogleFactChecks = async (query) => {
         throw Error(e);
 
     }
-}
+} */
 
 export const getKnackFactChecks = async (query) => {
     try {
